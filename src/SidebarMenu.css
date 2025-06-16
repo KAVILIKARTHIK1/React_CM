@@ -1,0 +1,46 @@
+/* SidebarMenu.css */
+
+.sidebar {
+    width: 220px;
+    background-color:#231e49;;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    box-shadow: 2px 0 8px rgba(0,0,0,0.1);
+  }
+  
+  .sidebar-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+  
+  .sidebar-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    display: block;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .sidebar-nav a:hover {
+    background-color: #231e49;
+  }
+  
+  .sidebar-nav .active {
+    background-color: #231e49;
+  }
+  /* AppBar */
+.MuiAppBar-root {
+  background-color: #231e49;;
+}
+
+/* Drawer */
+.MuiDrawer-paper {
+  width: 250px;
+  background-color: #f4f4f4;
+}

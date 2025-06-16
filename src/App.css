@@ -1,0 +1,19 @@
+/* App.css */
+
+.app-container {
+    display: flex;
+    background-color: #f4f6f8;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 2rem;
+    overflow-y: auto;
+    background-color: #f9fafb;
+  }
+  .MuiTableRow-hover:hover {
+    background-color: #f0f4ff !important;
+    transition: background-color 0.3s ease;
+  }
+  
